@@ -17,7 +17,7 @@ tytul char(100),
 cena float(4,2)
 );
 
-Creata Table Pozycje_Zamowione
+Create Table Pozycje_Zamowione
 ( zamowienieid int unsigned not null,
 isbn char(13) not null,
 ilosc tinyint unsigned,
